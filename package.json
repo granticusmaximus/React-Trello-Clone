@@ -1,0 +1,34 @@
+{
+  "name": "TrelloClone",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.4",
+    "redux-devtools-extension": "^2.13.2",
+    "@storybook/react": "^3.4.5",
+    "@storybook/addon-actions": "^3.4.5",
+    "@storybook/addon-links": "^3.4.5",
+    "@storybook/addons": "^3.4.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  },
+  "dependencies": {
+    "antd": "^3.5.3",
+    "react": "^16.3.2",
+    "react-dnd": "^2.6.0",
+    "react-dnd-html5-backend": "^2.6.0",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  }
+}
